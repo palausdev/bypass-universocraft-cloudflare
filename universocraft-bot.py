@@ -5,7 +5,7 @@ import time
 options = ChromeOptions()
 driver = Chrome(options=options)
 
-driver.get("https://stats.universocraft.com/jugador/unicz")
+driver.get("https://stats.universocraft.com/jugador/[player-name]") # Edit "player-name"
 
 time.sleep(10)
 
